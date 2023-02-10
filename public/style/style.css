@@ -75,7 +75,7 @@ h1 {
   padding: 8px 15px;
 }
 
-.main-link:hover {
+.main-link:hover,  .main-link.active:hover{
   color: cyan;
   box-shadow: 0 0 5px cyan;
   border-radius: 5px;
@@ -182,4 +182,9 @@ ul{
 ===================== */
 .show-when-mobile {
   display: none;
+}
+
+.main-link.active{
+  font-size: 30px;
+  text-decoration:red underline ;
 }

@@ -1,17 +1,21 @@
+import { Link, NavLink } from "react-router-dom";
+
 const Header = () => {
   return (
     <>
     <header className="hide-when-mobile">
-          <h1>My Website</h1>
+          <h1>
+            <Link to="/">My Website</Link>
+          </h1>
           <ul className="flex">
             <li className="main-list">
-              <a className="main-link" href="/html">HTML</a>              
+              <NavLink className="main-link" to="/html">HTML</NavLink>
             </li>
             <li className="main-list">
-              <a className="main-link" href="/css">CSS</a>              
+              <NavLink className="main-link" to="/css">CSS</NavLink>
             </li>
             <li className="main-list">
-              <a className="main-link" href="/js">JavaScript</a>              
+              <NavLink className="main-link" to="/js">JavaScript</NavLink>              
             </li>
           </ul>
         </header>

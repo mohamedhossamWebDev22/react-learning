@@ -15,3 +15,7 @@ Now I can make multible pages but I can't connect them😢.
 ## lesson 6
 __________________
 Now I can connect Them 😄😄
+
+## lesson 7
+__________________
+Link and Nav Link.
