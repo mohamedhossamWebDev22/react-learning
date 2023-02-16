@@ -17,6 +17,9 @@ const Header = () => {
             <li className="main-list">
               <NavLink className="main-link" to="/js">JavaScript</NavLink>              
             </li>
+            <li className="main-list">
+              <NavLink className="main-link" to="/hi">حلو الموقع؟؟</NavLink>
+            </li>
           </ul>
         </header>
         

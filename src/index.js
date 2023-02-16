@@ -6,6 +6,7 @@ import Home from "./pages/Home"
 import JavaScriptPAGE from "./pages/javascript"
 import CssPAGE from "./pages/css"
 import HtmlPAGE from "./pages/html"
+import FunPg from "./pages/hi"
 
 
 
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
     element: <HtmlPAGE />,
     errorElement: <>Error 404.</>,
   },
+  {
+    path: "/hi",
+    element: <FunPg />,
+    errorElement: <>Error 404.</>,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -43,5 +49,3 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-

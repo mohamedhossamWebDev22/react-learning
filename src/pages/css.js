@@ -1,14 +1,13 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
+import HomeComp from "../components/mainCo";
 
 const CssPage= () => {
   return(
     <>
         <Header />
 
-        <main dir="rtl">
-          Learn CSS
-        </main>
+        <HomeComp txt="CSS page" funW="صي اس اس"/>
 
         <Footer />
     </>
