@@ -25,3 +25,7 @@ Now I can connect Them 😄😄
 __________________
 Link and Nav Link.
 nav link is better than <a> <Link>
+
+## lesson 8
+_________________
+learn about props
