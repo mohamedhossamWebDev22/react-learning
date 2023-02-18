@@ -1,3 +1,5 @@
+import './Main.css';
+
 const HomeComp = ({txt, funW}) => {
   return (
     <main dir="rtl">

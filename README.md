@@ -24,8 +24,12 @@ Now I can connect Them 😄😄
 ## lesson 7
 __________________
 Link and Nav Link.
-nav link is better than <a> <Link>
+nav link is better than <a>, <Link>
 
 ## lesson 8
 _________________
 learn about props
+
+## lesson 9
+_________________
+React and CSS.

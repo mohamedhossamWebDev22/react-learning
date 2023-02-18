@@ -1,10 +1,14 @@
+import "./footer.css";
+
 const Footer = () => {
   return (
     <>
-      <footer>
-          Designed and developed by Mohamed Hosssam
-          <span>🧡</span>
-        </footer>
+      <div className="FooterDad">
+        <footer className="m7md">
+            Designed and developed by Mohamed Hosssam
+            <span>🧡</span>
+          </footer>
+      </div>
     </>
   );
 }

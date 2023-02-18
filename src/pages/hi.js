@@ -1,5 +1,6 @@
 import Footer from "../components/footer"
 import Header from "../components/header"
+import HomeComp from "../components/mainCo"
 
 
 const FunPg = () => {
@@ -7,13 +8,7 @@ const FunPg = () => {
     <>
       <Header />
 
-      <main dir="rtl">
-        حلو الموقع الكلام ده هبل في هبللللللللل
-        <br/>
-        وبردو لازم نعمل حاجات حلوة كده.        
-        <br />
-        <p dir="rtl">اتحداك تصلي عالنبي {9+1} مرات</p>
-      </main>
+      <HomeComp txt="حلو الموقع؟؟"/>
 
       <Footer />
     </>

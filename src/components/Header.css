@@ -1,0 +1,35 @@
+.show-when-mobile {
+  display: none;
+}
+
+.main-link.active{
+  font-size: 30px;
+  text-decoration:red underline ;
+}
+.hide-when-mobile {
+  display: flex;
+  justify-content: space-around;
+
+  background-color: rgb(0, 110, 255);
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.main-list {
+  padding: 20px;
+  font-size: 19px;
+  position: relative;
+}
+
+.main-link {
+  padding: 8px 15px;
+}
+
+.main-link:hover,  .main-link.active:hover{
+  color: cyan;
+  box-shadow: 0 0 5px cyan;
+  border-radius: 5px;
+}
