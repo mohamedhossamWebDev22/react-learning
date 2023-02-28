@@ -4,8 +4,12 @@ still learning react using `JS`, `HTML`, `CSS`
 
 # important commands
 __________________
-`npm start`:begin live server to test react app.__
-`npm i`:install node.js files.__
+`npm start`:begin live server to test react app.
+
+`npm create vite@latest`: best then cra.
+
+`npm i`:install node.js files.
+
 `npx create-react-app my-app`: for make a new react app.
 ## lesson 4
 __________________
